@@ -1,3 +1,12 @@
+/**
+ * Group Member 1: Luis Velascco 
+ * Group Member 2: Larry Hong
+ * Group Member 3: Peter Alvarado Nunez
+ * Group Leader: Peter Alvarado Nunez
+ * Date: 11-18-2015
+ * Course: IT 306 - 001
+ * Class Activity 10
+ */
 package classActivity_10;
 
 import java.util.Vector;
@@ -30,6 +39,7 @@ public class ActivityApplication {
 		
 		//*********Permutations***************
 		//TODO
+		Vector<Pair<String, Double>> permutation = Combination.calCombination(v1, v2);
+		System.out.println("Permutations:\n" + Combination.displayPermutations(permutation));
 	}
-
 }
