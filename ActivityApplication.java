@@ -3,14 +3,13 @@
  * Group Member 2: Larry Hong
  * Group Member 3: Peter Alvarado Nunez
  * Group Leader: Peter Alvarado Nunez
- * Date: 11-18-2015
+ * Date: 11-19-2015
  * Course: IT 306 - 001
  * Class Activity 10
  */
 package classActivity_10;
 
 import java.util.Vector;
-
 
 public class ActivityApplication {
 
@@ -26,20 +25,17 @@ public class ActivityApplication {
 	    v1.addElement(new String("Nina"));
 	    v1.addElement(new String("Tara"));
 		
-		
 		for (int i = 0; i< 5; i++){
 			v2.addElement(new Double(i+99));  
 		}
 		
-		
 		//*********DotProduct***************
-		Vector<Pair<String,Double>> product = DotProduct.calcDotProduct(v1, v2);
-		System.out.println("Printing DotProduct ************\n"+DotProduct.display(product));
-		System.out.println("\n\n");
+//		Vector<Pair<String,Double>> product = DotProduct.calcDotProduct(v1, v2);
+//		System.out.println("Printing DotProduct ************\n"+DotProduct.display(product));
+//		System.out.println("\n\n");
 		
 		//*********Permutations***************
-		//TODO
 		Vector<Pair<String, Double>> permutation = Combination.calCombination(v1, v2);
-		System.out.println("Permutations:\n" + Combination.displayPermutations(permutation));
+		System.out.println("Printing Permutations ************\n" + Combination.displayPermutations(permutation));
 	}
 }
